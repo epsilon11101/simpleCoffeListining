@@ -7,7 +7,13 @@ interface MainLayoutProps {
 
 const MainLayout: FC<MainLayoutProps> = ({ children }) => {
   return (
-    <div className="h-dvh bg-charcoal-black">
+    <div
+      className="
+        min-h-lvh
+      bg-charcoal-black static 
+     overflow-hidden
+    "
+    >
       <div
         className="
       w-full
