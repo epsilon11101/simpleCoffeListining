@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import bgCafe from "assets/backgrounds/bg-cafe.png";
+import bgCafe from "@assets/backgrounds/bg-cafe.jpg";
 
 interface MainLayoutProps {
   children: React.ReactNode;
